@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Marvel Characters</string>
+    <string name="title_character_detail">Character Detail</string>
+    <string name="title_character_list">Characters</string>
+    <string name="no_description">Sorry, there\'s no content available to show here.</string>
+    <string name="about">About</string>
+</resources>

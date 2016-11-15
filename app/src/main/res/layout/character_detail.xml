@@ -1,0 +1,53 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.nyan.marvel.characterdetail.CharacterDetailFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/light_background">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="4dp"
+        app:cardUseCompatPadding="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about"
+                android:paddingBottom="16dp"
+                style="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/character_detail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textIsSelectable="true"
+                style="@style/TextAppearance.AppCompat.Medium"
+                tools:text="Mauris vehicula faucibus libero, sit amet finibus est commodo non. Nam dui sapien, suscipit in lectus et, ornare pulvinar neque. Integer non varius neque, in porttitor justo. Etiam convallis neque nisi. Vestibulum nulla mauris, iaculis vel lacinia sed, convallis a libero. Ut aliquet nisl sit amet massa tempor luctus. Mauris tempor tortor nec ipsum mattis ullamcorper. Sed rhoncus mauris arcu, quis congue lorem fringilla rhoncus. Nunc at feugiat odio. Maecenas non pellentesque risus."
+                />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+
+</LinearLayout>
+
+
+
